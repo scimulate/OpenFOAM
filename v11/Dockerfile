@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y openfoam11
 RUN touch /root/.bashrc \
  && cat /opt/openfoam11/etc/bashrc >> /root/.bashrc
 RUN mkdir -p /root/OpenFOAM/-11/run/analysis
-WORKDIR /root/OpenFOAM/-11/run/analysis
+WORKDIR /root/OpenFOAM/-11/run/
